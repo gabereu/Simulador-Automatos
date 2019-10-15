@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+     .d-none{
+         display: none;
+     }
+    </style>
+</head>
+<body>
+    <div>
+        <h5>Estados</h5>
+        <h6>Estado Inicial</h6> <input type="text" name="inicial" id="e-inicial">
+        <h6>Estados Intermediários</h6> <input type="text" name="" id="e-inter">
+        <h6>Estados Finais</h6> <input type="text" name="final" id="e-finais">
+        <button id="ok">Atualizar Estados</button>
+    </div>
+
+    <div id="container" class="d-none">
+        <div id="mudanca">
+            <h6>Mudança de Estados</h6>
+        </div>
+        <button id="btn-estados">+</button>
+        <hr>
+        <div>
+            <button id="gerar">Gerar Tabela</button>
+        </div>
+        <hr>
+        <div id="div-sentenca" class="d-none">
+            <h5>Sentença</h5>
+            <input type="text" name="" id="sentenca">
+            <button id="verifica">Verificar</button>
+            <h6 id="result"></h6>
+        </div>
+
+    </div>
+
+    
+
+
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
+</html>

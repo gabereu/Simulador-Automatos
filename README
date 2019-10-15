@@ -1,0 +1,33 @@
+Aluno: Gabriel Santos Resende
+
+Pré-requisitos:
+
+Navegador compatível com HTML5, CCS3 e JQuery 3.4.1
+
+Como usar:
+
+Preencher corretamente os campos:
+    - Estado Inicial
+    - Estados Intermediários
+    - Estados Finais
+
+Clicar no botão 'Atualizar Estados'
+
+Aparecerá um campo com dois campos 'select' que iniciarão com o estado inicial
+o primeiro se refere ao estado de origem e o segundo o estado de destino
+o campo 'input' escrito 'Alfabeto' deverá conter os caracteres aceitos para a
+transição do estado origem para o estado destinho, os caracteres devem ser
+separador por espaço e há a possibilidade de escolher intervalos de numeros
+entre 0 e 9 utilizando 0..9 podendo alterar o primeiro e segundo numero para
+alterar o intervalo, necessário que o primeiro numero seja menor ou igual ao
+segundo, esse recurso também funciona com as letras do alfabeto iniciando com
+a letra 'a' e terminando com a letra 'Z'(letras maiusculas e minusculas são
+consideradas diferentes e o intervalo começa com o alfabeto minusculo e termina 
+com o alfabeto maiusculo).
+
+Podem ser utilizados os botões '+' e '-' para adicionar e remover transições.
+
+Definidas as transições clicar no botão 'Gerar Tabela' e então entar com a string
+a ser verificada no campo 'Sentença'.
+
+Clicar no botão 'Verificar' para analisar a sentença.
